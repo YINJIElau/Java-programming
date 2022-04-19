@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="598.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ScoreBoard">
+   <children>
+      <TextField editable="false" layoutX="52.0" layoutY="14.0" prefHeight="68.0" prefWidth="515.0" text="Score Board">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="51.0" layoutY="139.0" prefHeight="23.0" prefWidth="46.0" text="1." />
+      <TextField editable="false" layoutX="51.0" layoutY="219.0" prefHeight="23.0" prefWidth="46.0" text="3." />
+      <TextField editable="false" layoutX="51.0" layoutY="179.0" prefHeight="23.0" prefWidth="46.0" text="2." />
+      <TextField editable="false" layoutX="51.0" layoutY="258.0" prefHeight="23.0" prefWidth="46.0" text="4." />
+      <TextField editable="false" layoutX="51.0" layoutY="301.0" prefHeight="23.0" prefWidth="46.0" text="5." />
+      <TextField editable="false" layoutX="51.0" layoutY="347.0" prefHeight="23.0" prefWidth="46.0" text="6." />
+      <TextField editable="false" layoutX="51.0" layoutY="388.0" prefHeight="23.0" prefWidth="46.0" text="7." />
+      <TextField editable="false" layoutX="51.0" layoutY="428.0" prefHeight="23.0" prefWidth="46.0" text="8." />
+      <TextField editable="false" layoutX="51.0" layoutY="475.0" prefHeight="23.0" prefWidth="46.0" text="9." />
+      <TextField editable="false" layoutX="51.0" layoutY="519.0" prefHeight="23.0" prefWidth="46.0" text="10." />
+      <TextField fx:id="name1" editable="false" layoutX="148.0" layoutY="139.0" />
+      <TextField fx:id="name2" editable="false" layoutX="148.0" layoutY="179.0" />
+      <TextField fx:id="name3" editable="false" layoutX="148.0" layoutY="219.0" />
+      <TextField fx:id="name4" editable="false" layoutX="148.0" layoutY="258.0" />
+      <TextField fx:id="name5" editable="false" layoutX="148.0" layoutY="301.0" />
+      <TextField fx:id="name6" editable="false" layoutX="148.0" layoutY="347.0" />
+      <TextField fx:id="name7" editable="false" layoutX="148.0" layoutY="388.0" />
+      <TextField fx:id="name8" editable="false" layoutX="148.0" layoutY="428.0" />
+      <TextField fx:id="name9" editable="false" layoutX="148.0" layoutY="475.0" />
+      <TextField fx:id="name10" editable="false" layoutX="148.0" layoutY="519.0" />
+      <TextField editable="false" layoutX="379.0" layoutY="101.0" text="Score" />
+      <TextField fx:id="score1" editable="false" layoutX="379.0" layoutY="139.0" />
+      <TextField fx:id="score2" editable="false" layoutX="379.0" layoutY="179.0" />
+      <TextField fx:id="score3" editable="false" layoutX="379.0" layoutY="219.0" />
+      <TextField fx:id="score4" editable="false" layoutX="379.0" layoutY="258.0" />
+      <TextField fx:id="score5" editable="false" layoutX="379.0" layoutY="301.0" />
+      <TextField fx:id="score6" editable="false" layoutX="379.0" layoutY="347.0" />
+      <TextField fx:id="score7" editable="false" layoutX="379.0" layoutY="388.0" />
+      <TextField fx:id="score8" editable="false" layoutX="379.0" layoutY="428.0" />
+      <TextField fx:id="score9" editable="false" layoutX="379.0" layoutY="475.0" />
+      <TextField fx:id="score10" editable="false" layoutX="379.0" layoutY="519.0" />
+      <TextField editable="false" layoutX="23.0" layoutY="101.0" prefHeight="23.0" prefWidth="74.0" text="Ranking" />
+      <TextField editable="false" layoutX="148.0" layoutY="101.0" text="Name" />
+   </children>
+</AnchorPane>
